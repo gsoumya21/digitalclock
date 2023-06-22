@@ -1,0 +1,95 @@
+*{l
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 150vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: rgb(128,128,128.0);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#time{
+    color: purple;
+    font-size: 8vw;
+    text-rendering: 5px 5px 5px black;
+}
+#date{
+    color: purple;
+    font-size: 4vw;
+    text-rendering: 5px 5px 5px black;
+}
+#day{
+    color: purple;
+    font-size: 4vw;
+    text-rendering: 5px 5px 5px black;
+}
+#Sec{
+    color:lawngreen;
+    font-size: 30vw;
+    text-rendering: 5px 5px 5px black;
+}
+
+#alarm{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(61, 3, 3);
+    position: absolute;
+    display: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items:center ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#buttonToSetAlarm{
+    position: absolute;
+    bottom: 30px;
+}
+input{
+    width: 40%;
+    height: 40px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+select{
+    width: 30%;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: royalblue;
+    font-weight: bold;
+}
+#closeAlarm{
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
+#alarmIcon{
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
